@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C61735C31FC6B34800C0B408 /* LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C61735C11FC6B34800C0B408 /* LJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C61735C91FC6B36E00C0B408 /* LJAdditions.m */; };
+		C61735E21FC7B99900C0B408 /* NSDate+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */; };
+		C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		C61735C11FC6B34800C0B408 /* LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAdditions.h; sourceTree = "<group>"; };
 		C61735C21FC6B34800C0B408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C61735C91FC6B36E00C0B408 /* LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAdditions.m; sourceTree = "<group>"; };
+		C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJAdditions.h"; sourceTree = "<group>"; };
+		C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			children = (
 				C61735C11FC6B34800C0B408 /* LJAdditions.h */,
 				C61735C91FC6B36E00C0B408 /* LJAdditions.m */,
+				C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */,
+				C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */,
 				C61735C21FC6B34800C0B408 /* Info.plist */,
 			);
 			path = LJAdditions;
@@ -63,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61735C31FC6B34800C0B408 /* LJAdditions.h in Headers */,
+				C61735E21FC7B99900C0B408 /* NSDate+LJAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */,
 				C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
