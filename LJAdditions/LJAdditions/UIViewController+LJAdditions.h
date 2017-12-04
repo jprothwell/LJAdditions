@@ -10,4 +10,5 @@
 
 @interface UIViewController (LJAdditions)
 + (instancetype) lj_instanceViewControllerFromStoryboard;
++ (instancetype) lj_instanceViewControllerFromStoryboardName:(NSString*)name;
 @end
