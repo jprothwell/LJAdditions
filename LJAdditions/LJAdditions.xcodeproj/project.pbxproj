@@ -11,6 +11,10 @@
 		C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C61735C91FC6B36E00C0B408 /* LJAdditions.m */; };
 		C61735E21FC7B99900C0B408 /* NSDate+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */; };
 		C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */; };
+		C6F06B511FD549AE004B57E2 /* UIStoryboard+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F06B4F1FD549AE004B57E2 /* UIStoryboard+LJAdditions.h */; };
+		C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */; };
+		C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */; };
+		C6F06B561FD549DB004B57E2 /* UIViewController+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		C61735C91FC6B36E00C0B408 /* LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAdditions.m; sourceTree = "<group>"; };
 		C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LJAdditions.h"; sourceTree = "<group>"; };
 		C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJAdditions.m"; sourceTree = "<group>"; };
+		C6F06B4F1FD549AE004B57E2 /* UIStoryboard+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+LJAdditions.h"; sourceTree = "<group>"; };
+		C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+LJAdditions.m"; sourceTree = "<group>"; };
+		C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJAdditions.h"; sourceTree = "<group>"; };
+		C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LJAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 				C61735C91FC6B36E00C0B408 /* LJAdditions.m */,
 				C61735E01FC7B99900C0B408 /* NSDate+LJAdditions.h */,
 				C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */,
+				C6F06B4F1FD549AE004B57E2 /* UIStoryboard+LJAdditions.h */,
+				C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */,
+				C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */,
+				C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */,
 				C61735C21FC6B34800C0B408 /* Info.plist */,
 			);
 			path = LJAdditions;
@@ -68,6 +80,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F06B511FD549AE004B57E2 /* UIStoryboard+LJAdditions.h in Headers */,
+				C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */,
 				C61735C31FC6B34800C0B408 /* LJAdditions.h in Headers */,
 				C61735E21FC7B99900C0B408 /* NSDate+LJAdditions.h in Headers */,
 			);
@@ -142,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */,
+				C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */,
+				C6F06B561FD549DB004B57E2 /* UIViewController+LJAdditions.m in Sources */,
 				C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
