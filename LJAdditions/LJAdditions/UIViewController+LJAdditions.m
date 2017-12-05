@@ -10,14 +10,14 @@
 
 @implementation UIViewController (LJAdditions)
 
-+ (instancetype) lj_instanceViewControllerFromStoryboard{
++ (instancetype) lj_instanceFromStoryboard{
     NSString* name = NSStringFromClass([self class]);
     UIStoryboard* storyboard = nil;
     @try{
         storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
     }
     @catch(NSException *exception) {
-        NSLog(@"未找到storyboard!");
+        NSLog(@"%@",exception);
         return [[self alloc]init];
     }
     UIViewController* vc = [storyboard instantiateViewControllerWithIdentifier:name];
@@ -27,13 +27,13 @@
     return vc;
 }
 
-+ (instancetype) lj_instanceViewControllerFromStoryboardName:(NSString*)name{
++ (instancetype) lj_instanceWithStoryboard:(NSString*)name{
     NSString* className = NSStringFromClass([self class]);
     UIStoryboard* storyboard = nil;
     @try {
         storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
     }@catch (NSException *exception) {
-        NSLog(@"未找到storyboard!");
+        NSLog(@"%@",exception);
         return [[self alloc]init];
     }
     UIViewController* vc = [storyboard instantiateViewControllerWithIdentifier:className];

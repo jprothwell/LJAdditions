@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (LJAdditions)
-+ (instancetype) lj_instanceViewControllerFromStoryboard;
-+ (instancetype) lj_instanceViewControllerFromStoryboardName:(NSString*)name;
++ (instancetype) lj_instanceFromStoryboard;
++ (instancetype) lj_instanceWithStoryboard:(NSString*)name;
 @end
