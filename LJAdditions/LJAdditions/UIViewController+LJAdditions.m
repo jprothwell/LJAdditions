@@ -13,16 +13,18 @@
 + (instancetype) lj_instanceFromStoryboard{
     NSString* name = NSStringFromClass([self class]);
     UIStoryboard* storyboard = nil;
+    UIViewController* vc = nil;
     @try{
         storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
+        vc = [storyboard instantiateViewControllerWithIdentifier:name];
     }
     @catch(NSException *exception) {
         NSLog(@"%@",exception);
-        return [[self alloc]init];
-    }
-    UIViewController* vc = [storyboard instantiateViewControllerWithIdentifier:name];
-    if (nil == vc) {
         vc = [storyboard instantiateInitialViewController];
+    }
+    
+    if (nil == vc) {
+        vc = [[self alloc]init];
     }
     return vc;
 }
@@ -30,15 +32,17 @@
 + (instancetype) lj_instanceWithStoryboard:(NSString*)name{
     NSString* className = NSStringFromClass([self class]);
     UIStoryboard* storyboard = nil;
+    UIViewController* vc = nil;
     @try {
         storyboard = [UIStoryboard storyboardWithName:name bundle:nil];
+        vc = [storyboard instantiateViewControllerWithIdentifier:className];
     }@catch (NSException *exception) {
         NSLog(@"%@",exception);
-        return [[self alloc]init];
-    }
-    UIViewController* vc = [storyboard instantiateViewControllerWithIdentifier:className];
-    if (nil == vc) {
         vc = [storyboard instantiateInitialViewController];
+    }
+    
+    if (nil == vc) {
+        vc = [[self alloc]init];
     }
     return vc;
 }
