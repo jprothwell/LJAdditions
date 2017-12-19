@@ -17,6 +17,8 @@
 		C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */; };
 		C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */; };
 		C6F06B561FD549DB004B57E2 /* UIViewController+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */; };
+		C6F7CB341FE91CB7002BACC6 /* UIFont+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F7CB321FE91CB7002BACC6 /* UIFont+LJAdditions.h */; };
+		C6F7CB351FE91CB7002BACC6 /* UIFont+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F7CB331FE91CB7002BACC6 /* UIFont+LJAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+LJAdditions.m"; sourceTree = "<group>"; };
 		C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJAdditions.h"; sourceTree = "<group>"; };
 		C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LJAdditions.m"; sourceTree = "<group>"; };
+		C6F7CB321FE91CB7002BACC6 /* UIFont+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+LJAdditions.h"; sourceTree = "<group>"; };
+		C6F7CB331FE91CB7002BACC6 /* UIFont+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LJAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				C6F06B541FD549DB004B57E2 /* UIViewController+LJAdditions.m */,
 				C642B3841FD6759700C45982 /* UITabBarController+LJAdditions.h */,
 				C642B3851FD6759700C45982 /* UITabBarController+LJAdditions.m */,
+				C6F7CB321FE91CB7002BACC6 /* UIFont+LJAdditions.h */,
+				C6F7CB331FE91CB7002BACC6 /* UIFont+LJAdditions.m */,
 				C61735C21FC6B34800C0B408 /* Info.plist */,
 			);
 			path = LJAdditions;
@@ -87,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C642B3861FD6759800C45982 /* UITabBarController+LJAdditions.h in Headers */,
+				C6F7CB341FE91CB7002BACC6 /* UIFont+LJAdditions.h in Headers */,
 				C6F06B511FD549AE004B57E2 /* UIStoryboard+LJAdditions.h in Headers */,
 				C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */,
 				C61735C31FC6B34800C0B408 /* LJAdditions.h in Headers */,
@@ -164,6 +171,7 @@
 			files = (
 				C642B3871FD6759800C45982 /* UITabBarController+LJAdditions.m in Sources */,
 				C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */,
+				C6F7CB351FE91CB7002BACC6 /* UIFont+LJAdditions.m in Sources */,
 				C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */,
 				C6F06B561FD549DB004B57E2 /* UIViewController+LJAdditions.m in Sources */,
 				C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */,
