@@ -13,6 +13,8 @@
 		C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */; };
 		C642B3861FD6759800C45982 /* UITabBarController+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C642B3841FD6759700C45982 /* UITabBarController+LJAdditions.h */; };
 		C642B3871FD6759800C45982 /* UITabBarController+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C642B3851FD6759700C45982 /* UITabBarController+LJAdditions.m */; };
+		C6CC7D711FF1E0000073E59C /* NSString+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CC7D6F1FF1E0000073E59C /* NSString+LJAdditions.m */; };
+		C6CC7D721FF1E0000073E59C /* NSString+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CC7D701FF1E0000073E59C /* NSString+LJAdditions.h */; };
 		C6F06B511FD549AE004B57E2 /* UIStoryboard+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F06B4F1FD549AE004B57E2 /* UIStoryboard+LJAdditions.h */; };
 		C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */; };
 		C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */; };
@@ -30,6 +32,8 @@
 		C61735E11FC7B99900C0B408 /* NSDate+LJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LJAdditions.m"; sourceTree = "<group>"; };
 		C642B3841FD6759700C45982 /* UITabBarController+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+LJAdditions.h"; sourceTree = "<group>"; };
 		C642B3851FD6759700C45982 /* UITabBarController+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+LJAdditions.m"; sourceTree = "<group>"; };
+		C6CC7D6F1FF1E0000073E59C /* NSString+LJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LJAdditions.m"; sourceTree = "<group>"; };
+		C6CC7D701FF1E0000073E59C /* NSString+LJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LJAdditions.h"; sourceTree = "<group>"; };
 		C6F06B4F1FD549AE004B57E2 /* UIStoryboard+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+LJAdditions.h"; sourceTree = "<group>"; };
 		C6F06B501FD549AE004B57E2 /* UIStoryboard+LJAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+LJAdditions.m"; sourceTree = "<group>"; };
 		C6F06B531FD549DB004B57E2 /* UIViewController+LJAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LJAdditions.h"; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				C642B3851FD6759700C45982 /* UITabBarController+LJAdditions.m */,
 				C6F7CB321FE91CB7002BACC6 /* UIFont+LJAdditions.h */,
 				C6F7CB331FE91CB7002BACC6 /* UIFont+LJAdditions.m */,
+				C6CC7D701FF1E0000073E59C /* NSString+LJAdditions.h */,
+				C6CC7D6F1FF1E0000073E59C /* NSString+LJAdditions.m */,
 				C61735C21FC6B34800C0B408 /* Info.plist */,
 			);
 			path = LJAdditions;
@@ -95,6 +101,7 @@
 				C642B3861FD6759800C45982 /* UITabBarController+LJAdditions.h in Headers */,
 				C6F7CB341FE91CB7002BACC6 /* UIFont+LJAdditions.h in Headers */,
 				C6F06B511FD549AE004B57E2 /* UIStoryboard+LJAdditions.h in Headers */,
+				C6CC7D721FF1E0000073E59C /* NSString+LJAdditions.h in Headers */,
 				C6F06B551FD549DB004B57E2 /* UIViewController+LJAdditions.h in Headers */,
 				C61735C31FC6B34800C0B408 /* LJAdditions.h in Headers */,
 				C61735E21FC7B99900C0B408 /* NSDate+LJAdditions.h in Headers */,
@@ -173,6 +180,7 @@
 				C61735E31FC7B99900C0B408 /* NSDate+LJAdditions.m in Sources */,
 				C6F7CB351FE91CB7002BACC6 /* UIFont+LJAdditions.m in Sources */,
 				C6F06B521FD549AE004B57E2 /* UIStoryboard+LJAdditions.m in Sources */,
+				C6CC7D711FF1E0000073E59C /* NSString+LJAdditions.m in Sources */,
 				C6F06B561FD549DB004B57E2 /* UIViewController+LJAdditions.m in Sources */,
 				C61735CA1FC6B36E00C0B408 /* LJAdditions.m in Sources */,
 			);
