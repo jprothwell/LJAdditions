@@ -155,13 +155,13 @@ typedef unsigned char *LXDigestFunction(const void *data, CC_LONG len, unsigned 
     return [f numberFromString:self];
 }
 
-- (NSDate*) lj_dateWithUnixSeconds{
+- (NSDate*) lj_unixSecondsDate{
     NSNumber* num = [self lj_numberValue];
     NSTimeInterval interval = [num doubleValue];
     return [NSDate dateWithTimeIntervalSince1970:interval];
 }
 
-- (NSDate*) lj_dateWithUnixMilliseconds{
+- (NSDate*) lj_unixMillisecondsDate{
     NSNumber* num = [self lj_numberValue];
     NSTimeInterval interval = [num doubleValue]*0.001f;
     return [NSDate dateWithTimeIntervalSince1970:interval];

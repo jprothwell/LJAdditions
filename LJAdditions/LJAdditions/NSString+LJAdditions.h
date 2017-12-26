@@ -50,9 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSNumber*)lj_numberValue;
 
-- (NSDate*) lj_dateWithUnixSeconds;
+- (NSDate*) lj_unixSecondsDate;
 
-- (NSDate*) lj_dateWithUnixMilliseconds;
+- (NSDate*) lj_unixMillisecondsDate;
 
 @end
 

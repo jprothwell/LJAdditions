@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LJAdditions"
-s.version      = "1.0.10"
+s.version      = "1.0.11"
 s.summary      = "LJAdditions"
 s.description  = "awesome! utils"
 s.homepage     = "https://github.com/jprothwell/LJAdditions"
