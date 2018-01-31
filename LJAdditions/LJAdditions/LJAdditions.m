@@ -64,44 +64,19 @@ NSString * LJTemporaryDirectoryByAppendingPathComponent(NSString *pathComponent)
 #pragma mark - 屏幕|窗口|控制器
 CGSize LJScreenSize(void)
 {
-    static CGSize size;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        size = [UIScreen mainScreen].bounds.size;
-        if (size.height < size.width) {
-            CGFloat tmp = size.height;
-            size.height = size.width;
-            size.width = tmp;
-        }
-    });
-    return size;
+    return [UIScreen mainScreen].bounds.size;
 }
 
 CGFloat LJScreenScale(void)
 {
-    static CGFloat scale;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        scale = [UIScreen mainScreen].scale;
-    });
-    return scale;
+    return [UIScreen mainScreen].scale;
 }
 
 CGFloat LJScreenWidth(void){
-    static CGFloat width;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        width = LJScreenSize().width;
-    });
-    return width;
+    return LJScreenSize().width;
 }
 CGFloat LJScreenHeight(void){
-    static CGFloat height;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        height = LJScreenSize().height;
-    });
-    return height;
+    return LJScreenSize().height;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
