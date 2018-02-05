@@ -56,3 +56,11 @@ dispatch_source_t _Nullable LJGCDTimer(NSTimeInterval interval,
                      _Nullable dispatch_block_t cancelHandler);
 
 void LJGCDDelay(NSTimeInterval delayInSeconds, dispatch_block_t _Nonnull handler);
+
+///------------------------------------------------------------------------------------------------
+/// @name 顶层VC
+///------------------------------------------------------------------------------------------------
+
+UIViewController * _Nullable LJTopViewController(void);
+
+UIViewController * _Nullable LJRootViewController(void);
